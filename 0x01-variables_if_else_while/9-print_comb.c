@@ -9,17 +9,18 @@ int main(void)
 {
 
 	int s = 48, e = 57;
+	int sep = 44;
 
 	while (s <= e)
 	{
 		putchar(s++);
 		if (s == e + 1)
-			putchar('$');
+			sep = 36;
 		else
 		{
-			putchar(44);
 			putchar(' ');
 		}
+		putchar(sep);
 	}
 
 	putchar('\n');
