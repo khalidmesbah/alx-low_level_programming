@@ -24,7 +24,7 @@ int main(void)
 			e = 90;
 		}
 	}
-	putChar('\n');
+	putchar('\n');
 	return (0);
 }
 
