@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Description: 'the program's description'
@@ -9,18 +10,15 @@ int main(void)
 {
 
 	int s = 48, e = 57;
-	int sep = 44;
 
 	while (s <= e)
 	{
 		putchar(s++);
-		if (s == e + 1)
-			sep = 36;
-		else
+		if (s != e + 1)
 		{
 			putchar(' ');
+			putchar(44);
 		}
-		putchar(sep);
 	}
 
 	putchar('\n');
