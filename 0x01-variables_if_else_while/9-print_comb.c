@@ -16,8 +16,8 @@ int main(void)
 		putchar(s++);
 		if (s != e + 1)
 		{
-			putchar(' ');
 			putchar(44);
+			putchar(' ');
 		}
 	}
 
